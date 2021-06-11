@@ -1,8 +1,14 @@
 {
   "key":"var",
-  "key2":[{
-    "key33":"var",
-    "key77":"var"
+  "silder":[{
+    "title" : [{
+      "regex" : "",
+      "array" : [{"test1","test2"}]
+    }],
+    "image" : [{
+      "regex" : "",
+      "array" : [{"test1","test2"}]
+    }]
   }]  
 }
  
