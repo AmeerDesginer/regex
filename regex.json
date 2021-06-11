@@ -3,11 +3,11 @@
   "silder":[{
     "title" : [{
       "regex" : "",
-      "array" : [{"test1"},{"test2"}]
+      "array" : ["test1","test2"]
     }],
     "image" : [{
       "regex" : "",
-      "array" : [{"test1"},{"test2"}]
+      "array" : ["test1","test2"]
     }]
   }]  
 }
