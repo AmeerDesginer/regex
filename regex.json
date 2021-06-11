@@ -1,6 +1,6 @@
 {
   "key":"var",
-  "silder":[{
+  "slider":[{
     "title" : [{
       "regex" : "",
       "array" : ["test1","test2"]
