@@ -1,18 +1,18 @@
 {
   "key":"var",
   "slider":{
-    "title" : [{
+    "title" : {
       "regex" : "",
-      "array" : ["test1","test2"]
-    }],
-    "image" : [{
+      "array" : {"test1","test2"}
+    },
+    "image" : {
       "regex" : "",
-      "array" : ["test1","test2"]
-    }],
-    "details" : [{
+      "array" : {"test1","test2"}
+    },
+    "details" : {
       "regex" : "<h3 class=\"entry-title font-size-24 font-size-md-30 font-weight-bold mb-0 mt-3\">                <a href=\"(.*?)\" class=\"text-white\">(.*?)</a></h3>",
       "array" : null
-    }]
+    }
   }  
 }
  
