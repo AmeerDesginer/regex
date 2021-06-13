@@ -7,11 +7,11 @@
     },
     "img_header" : {
       "regex" : "https://(.*?)/thumb/1140x310/uploads/(.*?).(jpg|jpeg|png)",
-      "array" : null
+      "array" : "null"
     },
     "details" : {
       "regex" : "<h3 class=\"entry-title font-size-24 font-size-md-30 font-weight-bold mb-0 mt-3\">                <a href=\"(.*?)\" class=\"text-white\">(.*?)</a></h3>",
-      "array" : null
+      "array" : "null"
     },
     "poster" : {
       "regex" : "data-src=\"(https|http)://(.*?)/thumb/150x200/uploads/(.*?).(jpg|jpeg|png)\"",
@@ -27,7 +27,7 @@
     },
     "movie_id" : {
       "regex" : "href=\"https://(.*?)/movie/(.*?)/",
-      "array" : null
+      "array" : "null"
     },
     "disc" : {
       "regex" : "<p class=\"entry-desc font-size-16 text-white mb-0 mt-3\">(.*?)</p>",
