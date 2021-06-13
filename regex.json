@@ -2,17 +2,41 @@
   "key":"var",
   "slider":{
     "title" : {
-      "regex" : "",
-      "array" : ["test1","test2"]
+      "regex" : "class=\"text-white\">(.*?)</a></h3>",
+      "array" : ["class=\"text-white\">","</a></h3>"]
     },
-    "image" : {
-      "regex" : "",
-      "array" : ["test1","test2"]
+    "img_header" : {
+      "regex" : "https://(.*?)/thumb/1140x310/uploads/(.*?).(jpg|jpeg|png)",
+      "array" : null
     },
     "details" : {
       "regex" : "<h3 class=\"entry-title font-size-24 font-size-md-30 font-weight-bold mb-0 mt-3\">                <a href=\"(.*?)\" class=\"text-white\">(.*?)</a></h3>",
       "array" : null
-    }
+    },
+    "poster" : {
+      "regex" : "data-src=\"(https|http)://(.*?)/thumb/150x200/uploads/(.*?).(jpg|jpeg|png)\"",
+      "array" : ["data-src=\"","\""]
+    },
+    "rating" : {
+      "regex" : "<span class=\"label rating\"><i class=\"icon-star mr-2\"></i>(.*?)</span>",
+      "array" : ["<span class=\"label rating\"><i class=\"icon-star mr-2\"></i>","</span>"]
+    },
+    "quality" : {
+      "regex" : "<span class=\"label quality\">(.*?)</span>",
+      "array" : ["<span class=\"label quality\">","</span>"]
+    },
+    "movie_id" : {
+      "regex" : "href=\"https://(.*?)/movie/(.*?)/",
+      "array" : null
+    },
+    "disc" : {
+      "regex" : "<p class=\"entry-desc font-size-16 text-white mb-0 mt-3\">(.*?)</p>",
+      "array" : ["<p class=\"entry-desc font-size-16 text-white mb-0 mt-3\">","</p>","&laquo;"]
+    },
+    "trilar" : {
+      "regex" : "href=\"(.*?)\" data-fancybox",
+      "array" : ["href=\"","</p>","\" data-fancybox"]
+    },
   }  
 }
  
