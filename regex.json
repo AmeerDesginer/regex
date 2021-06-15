@@ -10,7 +10,7 @@
       "array" : "null"
     },
     "details" : {
-      "regex" : "<h3 class=\"entry-title font-size-24 font-size-md-30 font-weight-bold mb-0 mt-3\">                <a href=\"(.*?)\" class=\"text-white\">(.*?)</a></h3>",
+      "regex" : "<h3 class=\"entry-title font-size-24 font-size-md-30 font-weight-bold mb-0 mt-3\">\n<a href=\"(.*?)\" class=\"text-white\">(.*?)</a></h3>",
       "array" : "null"
     },
     "poster" : {
