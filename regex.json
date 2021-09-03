@@ -6,7 +6,7 @@
       "array" : ["class=\"text-white\">","</a></h3>"]
     },
     "img_header" : {
-      "regex" : "https://(.*?)/thumb/1140x310/uploads/(.*?).(jpg|jpeg|png)",
+      "regex" : "https://(.*?)/thumb/1140x310/uploads/(.*?).(jpg|jpeg|png|webp)",
       "array" : "null"
     },
     "details" : {
